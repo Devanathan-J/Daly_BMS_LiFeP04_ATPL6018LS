@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.6">
+  <diagram name="Page-1" id="mBnO7vV3uDqUA36Z2KgL">
+    <mxGraphModel dx="1034" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cct23CPzagjwrytp6UHK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-1" target="cct23CPzagjwrytp6UHK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-1" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 15px;&quot;&gt;OPTIMAL CHARGING AND DISCHARGING SCHEDULES FOR ENHANCED SOH&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-4" target="cct23CPzagjwrytp6UHK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-4" value="Data collection&amp;nbsp;&lt;div&gt;from Battery [BMS]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-5" target="cct23CPzagjwrytp6UHK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-5" target="cct23CPzagjwrytp6UHK-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="270" />
+              <mxPoint x="555" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-5" value="ESP32" style="rounded=1;whiteSpace=wrap;html=1;rotation=-1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-9" target="cct23CPzagjwrytp6UHK-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-9" value="Upload to&amp;nbsp;&lt;div&gt;Sheets&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-10" target="cct23CPzagjwrytp6UHK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-10" value="App script" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="290" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-11" value="Blynk console" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="290" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-25" target="cct23CPzagjwrytp6UHK-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-25" value="Fire store&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cct23CPzagjwrytp6UHK-28" target="cct23CPzagjwrytp6UHK-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="455" />
+              <mxPoint x="640" y="224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cct23CPzagjwrytp6UHK-28" value="IOT Main Station&lt;div&gt;Sheet&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="430" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
